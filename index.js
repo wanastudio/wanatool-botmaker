@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client
 var login = function(token){
     client.login(token)
-    console.log("Bot login at " + client.user.username)
+    console.log("Bot login at " + client.user.tag)
 }
 var newCommand = function(prefix, trigger, reply){
     client.on("message", message => {
