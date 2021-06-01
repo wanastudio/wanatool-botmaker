@@ -1,2 +1,2 @@
-node run.js
+node bot.js
 pause
