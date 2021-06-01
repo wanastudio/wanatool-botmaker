@@ -11,7 +11,7 @@ var newCommand = function(prefix, trigger, reply){
         }
     })
 }
-module.exports, {
+module.exports = {
 login: login,
 newCommand: newCommand
 }
